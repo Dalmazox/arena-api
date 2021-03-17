@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Arena.Domain\Arena.Domain.csproj" />
+    <ProjectReference Include="..\Arena.Infra.Data\Arena.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
